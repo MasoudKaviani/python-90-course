@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 79
+target-version = ["py36"]
+exclude = '''
+/(
+  \.git
+  | venv
+  | migrations
+  | node_modules
+)/
+'''
